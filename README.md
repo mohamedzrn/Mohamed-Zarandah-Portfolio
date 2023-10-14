@@ -2,7 +2,7 @@
 Portfolio website made throughout the year of 2023
 
 
-This was a website built to showcase my technical skills, web design skills, and not least my creativity as a Creative Developer
+This was a website built to showcase my technical skills, web design skills, and last but not least my creativity as a Creative Developer
 
 
 
