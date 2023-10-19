@@ -30,10 +30,20 @@ body, p, h1, h2, h3, h4, h5 {
 }
 
 .box {
-   background-color: powderblue;
+   background-color: #CCCCCC;
    color: rgb(27, 27, 27);
    border-radius: 5px;
-   padding: 20px;
+   padding: 15px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom:10px;
+ }
+
+ .box2 {
+   background-color: #F5EBE0;
+   color: rgb(27, 27, 27);
+   border-radius: 5px;
+   padding: 15px;
    text-align: center;
    margin-top: 10px;
    margin-bottom:10px;
@@ -54,7 +64,7 @@ body, p, h1, h2, h3, h4, h5 {
    display: grid;
    grid-template-columns: repeat(4, minmax(0, 1fr));
    grid-column-gap: 16px;
-   max-width: 1200px;
+   max-width: 1920px;
    margin: 0 auto;
    padding-left: 33px;
    padding-right: 33px;
