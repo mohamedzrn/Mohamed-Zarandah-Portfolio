@@ -1,25 +1,28 @@
-@import 'main.css';
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+h2 {
+  font-family: "PT Sans Caption", sans-serif;
+}
+
+h3 {
+  font-family: "PT Sans Caption", sans-serif;
+}
+
 body {
   background-color: #F5EBE0;
 }
 
 @media screen and (min-width: 1200px) {
-  #hero-con {
-    height: fit-content;
-    padding-top: 100px;
-    align-content: center;
-  }
-  #heroText {
-    height: 223px;
-  }
-  #subheroText {
-    height: 210px;
-    /* margin-bottom: 400px; */
-  }
-  #explore-btn {
-    height: 50px;
-    margin-bottom: 200px;
-  }
   #image-1 {
     margin-top: 50px;
     margin-right: -16px;
@@ -54,50 +57,8 @@ body {
     margin-bottom: 225px;
     height: 50px;
   }
-  #portfolio {
-    height: 130px;
-  }
-  #portfoliodesc {
-    height: 206px;
-  }
-  #portimage1, #portimage2, #portimage3 {
-    margin-top: 350px;
-    height: 500px;
-  }
-  #portimage4, #portimage5, #portimage6 {
-    height: 500px;
-  }
-  #aboutmetitle {
-    margin-top: 210px;
-    height: 103px;
-  }
-  #aboutmedesc {
-    height: 123px;
-  }
-  #explore-btn3 {
-    width: 8vw;
-    justify-self: center;
-    margin-top: 35px;
-    margin-bottom: 225px;
-    height: 50px;
-  }
 }
 @media screen and (min-width: 380px) and (max-width: 1199px) {
-  #hero-con {
-    height: fit-content;
-    padding-top: 80px;
-    align-content: center;
-  }
-  #heroText {
-    height: 102px;
-  }
-  #subheroText {
-    height: 272px;
-  }
-  #explore-btn {
-    margin-top: 30px;
-    height: 38px;
-  }
   #about-me {
     margin-top: 30px;
     height: 121px;
@@ -130,6 +91,37 @@ body {
     margin-bottom: 115px;
     height: 38px;
   }
+}
+@media screen and (min-width: 1200px) {
+  #portfolio {
+    height: 130px;
+  }
+  #portfoliodesc {
+    height: 206px;
+  }
+  #portimage1, #portimage2, #portimage3 {
+    margin-top: 350px;
+    height: 500px;
+  }
+  #portimage4, #portimage5, #portimage6 {
+    height: 500px;
+  }
+  #aboutmetitle {
+    margin-top: 210px;
+    height: 103px;
+  }
+  #aboutmedesc {
+    height: 123px;
+  }
+  #explore-btn3 {
+    width: 8vw;
+    justify-self: center;
+    margin-top: 35px;
+    margin-bottom: 225px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 1199px) {
   #portfolio {
     height: 52px;
   }
@@ -186,6 +178,41 @@ body {
     justify-self: center;
     margin-top: 23px;
     margin-bottom: 129px;
+    height: 38px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #hero-con {
+    height: fit-content;
+    padding-top: 100px;
+    align-content: center;
+  }
+  #heroText {
+    height: 223px;
+  }
+  #subheroText {
+    height: 210px;
+    /* margin-bottom: 400px; */
+  }
+  #explore-btn {
+    height: 50px;
+    margin-bottom: 200px;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 1199px) {
+  #hero-con {
+    height: fit-content;
+    padding-top: 80px;
+    align-content: center;
+  }
+  #heroText {
+    height: 102px;
+  }
+  #subheroText {
+    height: 272px;
+  }
+  #explore-btn {
+    margin-top: 30px;
     height: 38px;
   }
 }/*# sourceMappingURL=main.css.map */
